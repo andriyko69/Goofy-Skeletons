@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.github.andriyko69.goofyskeletons.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractSkeletonMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
